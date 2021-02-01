@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
+const App=()=>{
+  return(
+    <div>
+      <h1>This is my First React Session</h1>
+      <p>I am loving it !!</p>
+    </div>
+  );
+}
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <App />,document.getElementById('root')
 );
 
 
